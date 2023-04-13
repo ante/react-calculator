@@ -1,5 +1,5 @@
 {
-  "name": "react-typescript-starter",
+  "name": "react-calculator",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,10 +11,16 @@
     "prettier": "prettier --write \"src/**/*.{js,ts,jsx,tsx}\""
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.5.5",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "decimal.js-light": "^2.5.1",
+    "framer-motion": "^10.11.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@types/node": "^18.15.11",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "@typescript-eslint/eslint-plugin": "^5.58.0",
